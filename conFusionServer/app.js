@@ -191,7 +191,7 @@ app.use('/users', usersRouter);
 //passport
 function auth (req, res, next) {
   console.log(req.user);
-  console.log(req);
+  //console.log(req);
 
 
   if (!req.user) {
